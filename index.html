@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE GUIDE APP</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1><b>MOVIE</b> Guide App</h1>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="search-container">
+        <div class="title">
+            <video autoplay loop muted class="background-video">
+                <source src="videomove2.mp4" type="video/mp4">
+            </video>
+            <div class="text-box">
+                <h1>Let's Go Search<br> for a MOVIE...</h1>
+            </div>
+        </div>
+        
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Search Movie" class="inputBox" id="movieSearch">
+                <div id="suggestions" class="suggestions-box"></div> <!-- Suggestions List -->
+                <br>
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+    </div>
+    
+    <!--MAIN Section of Movie Data-->
+    <div class="loading-spinner"></div>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>Search Movie Details here</h2>
+            </div>
+            <div id="favorites">
+                <h2>Save to favourites</h2>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2024 Movie Guide App</p>
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>
